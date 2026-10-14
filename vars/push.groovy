@@ -1,4 +1,4 @@
-  def call(String Dusername, String Project<, String tag){
+  def call(String Dusername, String Project, String tag){
     withCredentials([usernamePassword(
                     'credentialsId':'dockerHubCred',
                     usernameVariable:"username",

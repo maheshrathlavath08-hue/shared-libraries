@@ -1,4 +1,4 @@
-def call(String image, String tag, String Dckerusername)
+def call(String pname, String tag, String Dckerusername)
 {
-echo "image : %image% , tag: %tag% , Dckerusername: %username"
+bat " docker built -t ${Dckerusername}/${pname}:${tag} ."
 }

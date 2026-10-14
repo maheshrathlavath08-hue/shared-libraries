@@ -1,4 +1,4 @@
 def call(String pname, String tag, String Dckerusername)
 {
-bat " docker built -t ${Dckerusername}/${pname}:${tag} ."
+bat " docker build -t ${Dckerusername}/${pname}:${tag} ."
 }

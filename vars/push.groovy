@@ -2,6 +2,7 @@
     withCredentials([usernamePassword(
                     'credentialsId':'dockerHubCred',
                     usernameVariable:"username",
-                    passwordVariable:"password")])
-    bat "docker push ${Dusername}/${project}:${tag}
+                    passwordVariable:"password")]){
+    bat "docker push ${Dusername}/${project}:${tag}"
+  }
   }

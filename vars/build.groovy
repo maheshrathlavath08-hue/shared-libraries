@@ -1,4 +1,4 @@
 def call(string image, string tag, strong Dckerusername)
 {
-echo "image : %notesapp%, tag:%latest% ,Dckerusername: %rathlavarhmahesh"5
+echo "image : %image% , tag: %tag% , Dckerusername: %username"
 }

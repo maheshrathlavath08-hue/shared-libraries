@@ -3,7 +3,7 @@
                     'credentialsId':'dockerHubCred',
                     usernameVariable:"username",
                     passwordVariable:"password")]){
-    bat " docker login -u ${username} -p ${password}
+    bat " docker login -u ${username} -p ${password}"
+    }
     bat "docker push ${Dusername}/${Image}:${tag}"
-  }
   }
